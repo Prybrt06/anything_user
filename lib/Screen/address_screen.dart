@@ -1,4 +1,3 @@
-import 'package:delivery/Screen/address_screen.dart';
 import 'package:delivery/Screen/welcome_screen.dart';
 import 'package:delivery/Widget/circular_button.dart';
 import 'package:delivery/Widget/language_button.dart';
@@ -7,8 +6,8 @@ import 'package:delivery/provider/languageProvider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-class OrderScreen extends StatelessWidget {
-  const OrderScreen({super.key});
+class AddressScreen extends StatelessWidget {
+  const AddressScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -26,7 +25,7 @@ class OrderScreen extends StatelessWidget {
           child: ListView(
             children: [
               Text(
-                content[language]['orderTitle'],
+                content[language]['addressTitle'],
                 textAlign: TextAlign.center,
                 style: const TextStyle(
                   color: Colors.white,
@@ -54,7 +53,7 @@ class OrderScreen extends StatelessWidget {
               ),
               const CircularButton(
                 title: 'Next',
-                screen: AddressScreen(),
+                screen: WelcomeScreen(),
               ),
             ],
           ),

@@ -7,10 +7,12 @@ Map content = {
     'welcome': 'Now only for Naharkatia',
     'welcome1': 'total order jimaan daam hobo taat maatro Rs. 50 eta add kori dibo delivery manuh jonor babe.',
     'orderTitle': 'Write what you want to order',
+    'addressTitle': 'Write your address',
   },
   'Assamese': {
     'welcome': 'এতিয়া কেৱল নাহৰকাটিয়াৰ বাবে',
     'welcome1': 'অৰ্ডাৰ মুল হ\'ব তাত মাত্ৰ Rs. 50 এটা যোগ কৰি দিব ডেলিভাৰি মানুহ জনৰ বাবে।',
     'orderTitle': 'কি অৰ্ডাৰ কৰিব বিচাৰা ?',
+    'addressTitle': 'আপোনাৰ ঠিকনা লিখক',
   }
 };
